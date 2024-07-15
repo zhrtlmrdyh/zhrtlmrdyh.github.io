@@ -4,23 +4,19 @@
   margin-right: 5px;
 }
 
-.contact-form {
+.contact-info {
   padding-top: 20px;
+}
 
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
+.contact-info a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #050f0b;
+}
 
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
+.contact-info a:hover {
+  color: #5000ca;
 }
 
 label {

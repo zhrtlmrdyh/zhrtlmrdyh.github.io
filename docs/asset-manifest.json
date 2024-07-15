@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.175cbca1.css",
+    "main.js": "/static/js/main.3c415e2a.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock04.png": "/static/media/mock04.5db89715d014b178d47a.png",
+    "static/media/mock05.png": "/static/media/mock05.eed5225c133672384032.png",
+    "static/media/mock03.png": "/static/media/mock03.0e5ad7aa2a3254e2bb7c.png",
+    "static/media/mock08.png": "/static/media/mock08.b000656c90a747cad09f.png",
+    "static/media/mock06.png": "/static/media/mock06.f55e9d3ecdca6b5f3747.png",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock10.png": "/static/media/mock10.ffbdbac474b82be812ec.png",
+    "static/media/mock09.png": "/static/media/mock09.0fb4a78f42d58a5b33a0.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock07.png": "/static/media/mock07.532503a5481c368a3736.png",
+    "static/media/me-zahra.jpg": "/static/media/me-zahra.1c4c53285787e45200d7.jpg",
+    "static/media/mail.png": "/static/media/mail.5067c871e0f70d599134.png",
+    "index.html": "/index.html",
+    "main.175cbca1.css.map": "/static/css/main.175cbca1.css.map",
+    "main.3c415e2a.js.map": "/static/js/main.3c415e2a.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.175cbca1.css",
+    "static/js/main.3c415e2a.js"
+  ]
+}
