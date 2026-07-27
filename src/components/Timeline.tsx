@@ -16,14 +16,14 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Juli 2021 - Juli 2025"
+            date="May 2021 - Agustus 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">UI/UX & Software Solutions</h3>
+            <h3 className="vertical-timeline-element-title">Freelancer Software Solutions</h3>
             <h4 className="vertical-timeline-element-subtitle">Indonesia</h4>
             <p>
-              as a Freelance Developer, Project Manager & Designer
+              as a Freelance Developer, Project Manager & UI-UX Designer/Graphic Designer
             </p>
           </VerticalTimelineElement>
 
