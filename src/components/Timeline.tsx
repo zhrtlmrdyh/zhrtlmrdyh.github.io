@@ -16,19 +16,37 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Maret 2024 & Juli 2024"
+            date="Juli 2021 - Juli 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Arutala Lab</h3>
-            <h4 className="vertical-timeline-element-subtitle">Indonesia, Bandung</h4>
+            <h3 className="vertical-timeline-element-title">UI/UX & Software Solutions</h3>
+            <h4 className="vertical-timeline-element-subtitle">Indonesia</h4>
             <p>
-              as a Programming Mentor (Fundamentals of Programming & Fullstack Laravel) 
+              as a Freelance Developer, Project Manager & Designer
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Desember 2023 - Maret 2024"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Juni 2023 - September 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">PT. Hirata Insan Mandiri</h3>
+            <h4 className="vertical-timeline-element-subtitle">Indonesia, Bandung</h4>
+            <p>
+              as a Mobile Developer & QA Engineer
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Desember 2023 - Juni 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -38,28 +56,34 @@ function Timeline() {
               as a Project Manager
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Juni 2023 - September 2023"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Maret 2024 - Desember 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">PT. Hirata Insan Mandiri</h3>
+            <h3 className="vertical-timeline-element-title">Arutala Lab</h3>
             <h4 className="vertical-timeline-element-subtitle">Indonesia, Bandung</h4>
             <p>
-              As a Front End Developer, Mobile Developer, Software Quality Assurance
+              as a Teaching Mentor (Fullstack Laravel)
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Juli 2021 - Agustus 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="September 2024 - Sekarang"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Freelance UI/UX Designer and Graphic Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Indonesia, Bandung</h4>
+            <h3 className="vertical-timeline-element-title">PT. Technology Innovation Labs (TSR Group)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Indonesia</h4>
             <p>
-              As a UI/UX Mobile Designer, UI/UX Website Designer, Graphic Designer, and Content Writer
+              as a QA Engineer - ERP Functional
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

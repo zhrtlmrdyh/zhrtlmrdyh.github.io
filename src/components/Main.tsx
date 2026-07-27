@@ -20,7 +20,7 @@ function Main() {
             <a href="https://www.instagram.com/zahratulmrdyh_/" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
           <h1>Zahratul Mardiyah</h1>
-          <p>Software Engineer | Software Quality Assurance | UI/UX Designer</p>
+          <p>Software Engineer | Project Management Officer | UI/UX Designer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/zhrtlmrdyh" target="_blank" rel="noreferrer"><GitHubIcon/></a>

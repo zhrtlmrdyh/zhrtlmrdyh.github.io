@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faJira, faFigma } from '@fortawesome/free-brands-svg-icons';
+import { faJava, faJira, faFigma, faTrello } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -47,6 +47,18 @@ const labelsThird = [
     "Adobe Photoshop"
 ];
 
+const labelsFourth = [
+    "Jira",
+    "Ms Project",
+    "Trello",
+    "Linear",
+    "Agile/Scrum",
+    "Team Leadership",
+    "Stakeholder Management",
+    "Six Sigma",
+    "Technical Documentation",
+];
+
 function Expertise() {
     return (
     <div className="container" id="expertise">
@@ -84,6 +96,18 @@ function Expertise() {
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
+                </div>
+
+                <div className="skill">
+                    <FontAwesomeIcon icon={faTrello} size="3x"/>
+                    <h3>Project Management Officer</h3>
+                    <p>I have led end-to-end software project delivery across web, mobile, and ERP initiatives, managing cross-functional teams of up to 10 members and coordinating with stakeholders including enterprise clients such as Bank BJB. My experience spans requirement gathering, sprint planning, and progress monitoring using Agile and Kanban workflows, consistently achieving on-time delivery rates above 95%. I am skilled in translating business needs into actionable project plans, maintaining technical documentation, and applying Six Sigma principles to drive quality and process improvement.</p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsFourth.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
